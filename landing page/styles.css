@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #0652dd;
+    --secondary-color: #ea2027;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+}
+
+/* Smooth scroll effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0.5pc;
+    box-sizing: border-box;
+    transition: var(--transition);
+}
+
+body {
+    font-family: "Roboto", sans-serf;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+.elite {
+    color: var(--primary-color);
+}
+
+.daily {
+    color: var(--secondary-color);
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2pc;
+    box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+.hamburger {
+    display: none;
+  }
+
+.logo {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    font-weight: var(--bold-font);
+}
+
+.btn{
+    padding: 5px 15px;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: var(--font2);
+    background-color: blue;
+    font-weight: 10px;
+    cursor : pointer;
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-family: var(--font2);
+}
